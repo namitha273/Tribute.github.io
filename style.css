@@ -1,0 +1,88 @@
+body{
+    font-family: serif;
+    background-color: white;
+  }
+  
+  #main{
+    background-color: #dbb9a4;
+    border-radius: 10px;
+  }
+  
+  #title{
+    text-align: center;
+    font-size: 35px;
+    padding: 35px;
+    padding-bottom: 10px;
+  }
+  
+  #description{
+    text-align: center;
+  }
+  
+  #img-div{
+    background-color: white;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8b1a3;
+  }
+  
+  
+  img{
+    max-width: 100%;
+  }
+  
+  #image{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    padding-bottom: 5px;
+  }
+  
+  #img-caption{
+    text-align: center;
+    font-size: 14px
+  }
+  
+  #subtitle{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: 600;
+    
+  }
+  
+  #tribute-info{
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  ul{
+    max-width: 550px;
+  }
+  
+  li{
+    margin: 20px;
+    justify-content: center;
+  }
+  
+  #quote{
+    font-style: italic;
+    margin: 20px;
+    text-align: justify;
+    max-width: 500px;
+  }
+  
+  #tribute-link{
+    color: #1755d1;
+  }
+  
